@@ -1,12 +1,11 @@
-# Movie Ranking Website
+# Portfolio Website
 
-This is a movie ranking Website called CineRank Ranking Website An ultimate destination for all things movies! At CineRank, we provide comprehensive rankings, reviews, and ratings for the latest blockbusters, indie gems, and timeless classics. Our expert team of film critics meticulously evaluates each movie, considering elements such as storytelling, acting, direction, cinematography, and overall impact. Whether you're a casual viewer looking for weekend entertainment or a cinephile in search of thought-provoking cinema, our user-friendly platform makes it easy to find the best films tailored to your preferences.
+This is a dark-light contrast website for a portfolio. It is related to being a web developer, but can be edited to be for any type of portfolio. It includes a bit of custom JavaScript for the typewriter effect and uses a script called "Lightbox" for the project modals.
 
-
+<img src="./images/screen.png" />
 
 ## Features
 
-- Dark and light contrast
 - Responsive design
 - Font awesome icons
 
