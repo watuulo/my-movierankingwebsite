@@ -399,11 +399,13 @@
         <div class="row mt-4">
           <div class="col-12 d-flex flex-column justify-content-center text-center align-items-center">
             <div class="mb-3">
-              <div class="input-group">
-                <p>Subscribe To Our News Letter</p>
-                <input type="email" class="ms-1 form-control bg-light" placeholder="Enter Email Address"/>
-                <button type="button" class="ms-1 btn btn-light text-dark fw-bold">Submit</button>
-              </div>
+              <form action="post" name="contact" netlify>
+                <div class="input-group">
+                  <p>Subscribe To Our News Letter</p>
+                  <input type="email" name="name" class="ms-1 form-control bg-light" placeholder="Enter Email Address"/>
+                  <button type="button" class="ms-1 btn btn-light text-dark fw-bold">Submit</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
