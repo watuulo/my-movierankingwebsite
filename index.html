@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Watuulo Richard | Junior Web Developer</title>
+    <link rel="icon" href="images/icons8-clapper-board-48.png" type="image/x-icon">
+  </head>
+  <body class="body-bg">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <div>
+            <span class="badge bg-secondary shadow-lg fs-4 fw-bolder">
+              WatuuloRichard-CineRank-Web
+            </span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#genres">GENRES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#favorites">FAVORITES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">CONTACT US</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header py-5">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="text-white mt-7">
+              CineRank Ranking Website
+            </h1>
+            <p class="lead text-white w-75 m-auto mb-5">
+              Welcome to CineRank, your ultimate destination for all things movies! At CineRank, we provide comprehensive rankings, reviews, and ratings for the latest blockbusters, indie gems, and timeless classics. Our expert team of film critics meticulously evaluates each movie, considering elements such as storytelling, acting, direction, cinematography, and overall impact. Whether you're a casual viewer looking for weekend entertainment or a cinephile in search of thought-provoking cinema, our user-friendly platform makes it easy to find the best films tailored to your preferences.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Image -->
+             <img src="images/movie-img.jpg" alt="...." class="image img-fluid rounded-1">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main-Content -->
+    <main-content>
+      <section id="genres" class="genres py-5">
+        <div class="container">
+          <div class="row mb-5 text-center">
+            <div class="col-12 text-center">
+              <h1 class="text-white">Movie Genres</h1>
+            </div>
+          </div>
+          <!-- Movie-List-Row-1 -->
+          <div class="row mb-5">
+            <div class="col-md-3 mb-4">
+              <div class="card bg-dark">
+                <img src="./images/equalizer.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white text-center mb-5">Action</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card bg-dark">
+                <img src="./images/three.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white text-center mb-5">Adventure</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card bg-dark">
+                <img src="./images/the mother.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white text-center mb-5">Thriller</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card bg-dark">
+                <img src="./images/extraction2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white text-center mb-5">Action</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="top" class="top py-5">
+        <div class="container">
+          <div class="row mb-5 text-center">
+            <div class="col-12 text-center">
+              <h1 class="text-white">TopFive Movies</h1>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <!-- First-Row -->
+            <div class="row mb-3">
+              <!-- First Card -->
+              <div class="col-md-6">
+                <div class="card bg-dark mb-3 shadow-lg">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="images/supa-cell.jpg" class="img-fluid rounded-start" alt="Movie Poster">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body justify-content-center align-items-center text-center">
+                        <h5 class="card-title">
+                          <span class="fa-stack">
+                              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa-solid fa-1 fa-stack-1x text-white"></i>
+                          </span>
+                        </h5>
+                        <p class="card-text text-white">Confidential Informant</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal1" class="btn btn-light">Watch Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Second Card -->
+              <div class="col-md-6">
+                <div class="card bg-dark mb-3 shadow-lg">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="images/informant.png" class="img-fluid rounded-start" alt="Movie Poster">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body justify-content-center align-items-center text-center">
+                        <h5 class="card-title">
+                          <span class="fa-stack">
+                              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa-solid fa-2 fa-stack-1x text-white"></i>
+                          </span>
+                        </h5>
+                        <p class="card-text text-white">Confidential Informant</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal2" class="btn btn-light">Watch Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second-Row -->
+            <div class="row">
+              <!-- First Card -->
+              <div class="col-md-6">
+                <div class="card bg-dark mb-3 shadow-lg">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="images/presumed-innocent.jpg" class="img-fluid rounded-start" alt="Movie Poster">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body justify-content-center align-items-center text-center">
+                        <h5 class="card-title">
+                          <span class="fa-stack">
+                              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa-solid fa-3 fa-stack-1x text-white"></i>
+                          </span>
+                        </h5>
+                        <p class="card-text text-white">Presumed Innocent</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal3" class="btn btn-light">Watch Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Second Card -->
+              <div class="col-md-6">
+                <div class="card bg-dark mb-3 shadow-lg">
+                  <div class="row g-0">
+                    <div class="col-md-6">
+                      <img src="images/Furiosa-OS-Final.jpg" class="img-fluid rounded-start" alt="Movie Poster">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body justify-content-center align-items-center text-center">
+                        <h5 class="card-title">
+                          <span class="fa-stack">
+                              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa-solid fa-4 fa-stack-1x text-white"></i>
+                          </span>
+                        </h5>
+                        <p class="card-text text-white">Mad-Max Furiosa</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal4" class="btn btn-light">Watch Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Watch-Modals -->
+          <div class="watch-modals">
+            <!-- Modal-1 -->
+             <div id="modal1" class="modal fade">
+              <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content bg-dark p-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/Supacell-modal-2.avif" alt="..." class="img-fluid rounded-1">
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="text-primary text-center">Supercell</h5>
+                      <hr class="text-primary mx-auto">
+                      <p class="text-primary"><strong>Supercell</strong> is an adrenaline-pumping disaster film that follows a group of storm chasers as they confront one of the most powerful supercells ever recorded. As they race against time to gather data and warn communities, they must also face their personal demons and test their limits. With stunning visual effects and heart-stopping action sequences, Supercell delivers a thrilling cinematic experience that captures the raw power and beauty of nature's most dangerous phenomena.</p>
+                      <div class="align-items-center text-center">
+                        <a href="https://youtu.be/Frmk94Etedo" target="_blank" class="btn btn-outline-primary">
+                          <i class="fa-regular fa-circle-play text-center"></i> Watch Trailer
+                        </a>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-primary">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- Modal-2 -->
+             <div id="modal2" class="modal fade">
+              <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content bg-dark p-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/informant-modal.jpg" alt="..." class="img-fluid rounded-1">
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="text-primary text-center">Confidential Informant</h5>
+                      <hr class="text-primary mx-auto">
+                      <p class="text-primary"><strong>Confidential Informant</strong> is a gripping thriller that dives into the dangerous world of undercover operations. The story follows an informant who risks everything to expose a criminal syndicate while navigating the treacherous waters of deception, loyalty, and survival. The movie delivers intense performances and a plot filled with unexpected twists and turns, keeping the audience on the edge of their seats from start to finish.</p>
+                      <div class="align-items-center text-center">
+                        <a href="https://youtu.be/5MeHC7moE2M" target="_blank" class="btn btn-outline-primary">
+                          <i class="fa-regular fa-circle-play text-center"></i> Watch Trailer
+                        </a>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-primary">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- Modal-3 -->
+             <div id="modal3" class="modal fade">
+              <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content bg-dark p-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/presumed-innocent-modal.avif" alt="..." class="img-fluid rounded-1 mt-6">
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="text-primary text-center">Presumed Innocent</h5>
+                      <hr class="text-primary mx-auto">
+                      <p class="text-primary"><strong>Presumed Innocent</strong> (1990) is a gripping legal thriller directed by Alan J. Pakula and based on the best-selling novel by Scott Turow. The film stars Harrison Ford as Rusty Sabich, a prosecutor who finds himself accused of the murder of his colleague Carolyn Polhemus (played by Greta Scacchi). As Rusty battles to prove his innocence, dark secrets and complex relationships come to light, blurring the lines between guilt and innocence. With a riveting plot, strong performances, and an unforgettable twist, <em>Presumed Innocent</em> keeps audiences on the edge of their seats until the very end.</p>
+                      <div class="align-items-center text-center">
+                        <a href="https://youtu.be/ZNSY3lMioHs" target="_blank" class="btn btn-outline-primary">
+                          <i class="fa-regular fa-circle-play text-center"></i> Watch Trailer
+                        </a>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-primary">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- Modal-4 -->
+             <div id="modal4" class="modal fade">
+              <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content bg-dark p-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/Madmax Furiosa Charlize Theron Film iPhone Wallpapers.jpg" alt="..." class="img-fluid rounded-1">
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="text-primary text-center">Mad Max: Furiosa</h5>
+                      <hr class="text-primary mx-auto">
+                      <p class="text-primary"><strong>Mad Max: Furiosa</strong> is an upcoming action-packed prequel to the highly acclaimed <em>Mad Max: Fury Road</em>. Directed by George Miller, the film delves into the origins of Furiosa, a character immortalized by Charlize Theron in <em>Fury Road</em>. The story follows a young Furiosa, played by Anya Taylor-Joy, as she navigates a desolate and dangerous wasteland, facing formidable adversaries and forging alliances in her quest for survival and justice. With stunning visuals, intense action sequences, and a compelling narrative, <strong>Mad Max: Furiosa</strong> promises to expand the legendary Mad Max universe and offer fans a deeper insight into one of its most iconic characters.</p>
+                      <div class="align-items-center text-center">
+                        <a href="https://youtu.be/XJMuhwVlca4" target="_blank" class="btn btn-outline-primary">
+                          <i class="fa-regular fa-circle-play text-center"></i> Watch Trailer
+                        </a>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-primary">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+    </main-content>
+
+    <footer class="footer mt-5 text-bg-dark py-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Movie Links</h5>
+            <p>MRP Home page</p>
+            <p>MRP Latest reviews</p>
+            <p>Browse movies</p>
+            <p>Findnew channels</p>
+          </div>
+
+          <div class="col-md-4">
+            <h5>MRP</h5>
+            <p>About MRP</p>
+            <p>Advertise on MRP</p>
+            <p>Terms Of Service</p>
+            <p>Get Youtube Data</p>
+          </div>
+
+          <div class="col-md-4">
+            <i class="fa-brands fa-x-twitter"></i>
+            <div class="d-flex gap-3">
+              <a href="#">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in fa-2x"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-discord fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+          <hr class="hr text-black">
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 d-flex flex-column justify-content-center text-center align-items-center">
+            <div class="mb-3">
+              <div class="input-group">
+                <p>Subscribe To Our News Letter</p>
+                <input type="email" class="ms-1 form-control bg-light" placeholder="Enter Email Address"/>
+                <button type="button" class="ms-1 btn btn-light text-dark fw-bold">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-md-inline-flex d-flex mt-4">
+            <p class="flex-grow-1">
+              <span class="badge bg-primary shadow-lg fs-5">Copyright &copy; 2024 | Designed By Watuulo Richard | A Junior Web-Developer</span> 
+            </p>
+            <div class="hstack gap-3">
+              <a href="https://watuulorichardportfolio.netlify.app/" target="_blank"> 
+                <i class="fa-solid fa-briefcase fa-2x"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-github fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
